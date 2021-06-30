@@ -11,7 +11,7 @@ Author: Mohammad Mahmoud Altamimi
 
 ## Heroku applications :
 
-[api-server](https://basic-server-api.herokuapp.com/)
+[api-server](https://api-server-mohammad.herokuapp.com)
 <br/>
 <br/>
 
