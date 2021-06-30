@@ -1,3 +1,5 @@
+'use strict';
+
 const mongoose = require('mongoose');
 
 
@@ -10,3 +12,5 @@ const clothesSchema = mongoose.Schema({
 const clothesModel = mongoose.model('clothesInst', clothesSchema);
 
 module.exports = clothesModel;
+
+

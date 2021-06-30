@@ -1,7 +1,4 @@
 'use strict';
-
-
-
 class Interface {
   constructor(model) {
     this.model = model;
@@ -17,7 +14,7 @@ class Interface {
 
   }
 
-  create(_id, obj) {
+  create(obj) {
     const doc = new this.model(obj);
     return doc.save();
 
@@ -33,8 +30,5 @@ class Interface {
 
   }
 
-
 }
-
-
 module.exports = Interface;
