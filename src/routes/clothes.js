@@ -19,8 +19,8 @@ router.delete('/:id', deleteClothes);
 async function getClothes(req, res, next) {
   try {
     const id = req.params.id;
-    const clothes = await clothes.read(id);
-    res.json({ clothes });
+    const clothesInfo = await clothes.read(id);
+    res.json({ clothesInfo });
   } catch (e) {
     next(e);
   }

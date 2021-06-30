@@ -19,8 +19,8 @@ router.delete('/:id', deleteFood);
 async function getFood(req, res, next) {
   try {
     const id = req.params.id;
-    const food = await food.read(id);
-    res.json({ food });
+    const foodInfo = await food.read(id);
+    res.json({ foodInfo });
   } catch (e) {
     next(e);
   }

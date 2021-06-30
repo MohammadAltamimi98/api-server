@@ -11,7 +11,6 @@ class Interface {
       return this.model.find({ _id })
     }
     return this.model.find({})
-
   }
 
   create(obj) {
